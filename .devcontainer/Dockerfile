@@ -7,7 +7,7 @@ ENV DISPLAY=:1
 ENV RESOLUTION=1600x900x24
 
 RUN apt-get update && apt-get install -y \
-    openjdk-17-jre \
+    openjdk-11-jre \
     wget \
     curl \
     unzip \
