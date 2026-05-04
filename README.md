@@ -14,3 +14,16 @@ Ejecuta:
 
 ```bash
 ./scripts/start-desktop.sh
+```
+
+Abre la pestaña PORTS y entra en:
+
+Weka Desktop noVNC
+
+## Iniciar Weka
+
+Abre una segunda terminal y ejecuta:
+
+```bash
+./scripts/start-weka.sh
+```
