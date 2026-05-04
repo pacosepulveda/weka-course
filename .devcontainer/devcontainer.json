@@ -1,0 +1,22 @@
+{
+  "name": "Weka Data Mining Course",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {
+      "label": "Weka Desktop noVNC",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "chmod +x scripts/*.sh && mkdir -p /workspaces/weka-codespaces-course/student-work",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.vscode-json",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  }
+}
